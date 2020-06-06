@@ -1,0 +1,21 @@
+<!--pages/skill/skill.wxml-->
+<view class="bg-img bg-mask padding-tb-xl bg">
+  <view class="head-ti text-center">
+    <view>笔落惊风雨</view>
+    <view>诗成泣鬼神</view>
+  </view>
+</view>
+<view class="padding">
+  <view class="padding-xl radius shadow-warp bg-white">
+    <text class="cuIcon-list lg text-blue"></text>
+    <text class="name-ti">专业技能</text>
+    <view class="line"></view>
+    <view class="box" wx:for="{{list}}" wx:key="index">
+      <view class="skill-ti">{{item.tite}}</view>
+      <text>{{item.con}}</text>
+      <view class="cu-progress round sm striped active margin10">
+        <view class="bg-blue" style="width:{{item.percentage}}%"></view>
+      </view>
+    </view>
+  </view>
+</view>

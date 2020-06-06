@@ -1,0 +1,5 @@
+/* pages/work/work.wxss */
+.company{
+  font-weight: bold;
+  line-height: 80rpx;
+}

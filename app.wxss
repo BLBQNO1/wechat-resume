@@ -1,0 +1,39 @@
+@import "colorui.wxss";
+@import "icon.wxss";
+
+/**app.wxss**/
+page{
+  background-color: #ddd;
+}
+.bg{
+  height: 300rpx;
+  background-image: url(http://lblt.site/wx/tob.jpg);
+}
+.name-ti{
+  padding-left:10rpx;
+}
+.line{
+  margin-top: 20rpx;
+  border: 1rpx solid #ccc;
+}
+.head-ti{
+  width: 80%;
+  height: 200rpx;
+  margin-left: 10%;
+  background-color: rgb(255, 255, 255,.6);
+  border-radius: 6rpx;
+  padding: 50rpx;
+}
+.head-ti view{
+  height: 50rpx;
+  line-height: 50rpx;
+  font-weight: bold;
+  letter-spacing: 4rpx;
+}
+.big{
+  font-weight: bold;
+}
+.xxl{
+  font-size: 42rpx;
+  margin: 20rpx;
+}

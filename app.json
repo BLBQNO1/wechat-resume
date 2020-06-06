@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/skill/skill",
+    "pages/work/work",
+    "pages/project/project",
+    "pages/link/link"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "陈海旺的简历",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0081ff"
+  },
+  "tabBar":{
+    "color":"#666",
+    "selectedColor":"#0081ff",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"基本信息",
+      "iconPath":"image/info.png",
+      "selectedIconPath":"image/info1.png"
+    },{
+      "pagePath":"pages/skill/skill",
+      "text":"专业技能",
+      "iconPath":"image/skill.png",
+      "selectedIconPath":"image/skill1.png"
+    },{
+      "pagePath":"pages/work/work",
+      "text":"工作经历",
+      "iconPath":"image/work.png",
+      "selectedIconPath":"image/work1.png"
+    },{
+      "pagePath":"pages/project/project",
+      "text":"项目实践",
+      "iconPath":"image/project.png",
+      "selectedIconPath":"image/project1.png"
+    },{
+      "pagePath":"pages/link/link",
+      "text":"联系方式",
+      "iconPath":"image/link.png",
+      "selectedIconPath":"image/link1.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

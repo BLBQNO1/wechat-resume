@@ -1,0 +1,25 @@
+<!--pages/project/project.wxml-->
+<view class="bg-img bg-mask padding-tb-xl bg">
+	<view class="head-ti text-center">
+		<view>上山方知山高低</view>
+		<view>下水方知水深浅</view>
+	</view>
+</view>
+<view class="padding">
+	<view class="padding-xl radius shadow-warp bg-white">
+		<text class="cuIcon-calendar lg text-blue"></text>
+		<text class="name-ti">项目实践</text>
+		<view class="line"></view>
+		<view class="cu-timeline">
+      <view class="cu-time">Now</view>
+			<view class="cu-item text-blue" wx:for="{{data}}" wx:key="index">
+				<view class="bg-gray content">
+            <view><text class="big">项目名称：</text>{{item.name}}</view>
+            <view><text class="big">演示网址：</text>{{item.site}}</view>
+						<view><text class="big">项目描述：</text>{{item.des}}</view>
+						<view><text class="big">使用技术：</text>{{item.skill}}</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

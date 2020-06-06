@@ -1,0 +1,16 @@
+/* pages/link/link.wxss */
+.box{
+  padding: 20rpx;
+  margin: 40rpx 0;
+  box-shadow: 0 0 10rpx #0081ff;
+  font-size: 28rpx;
+  vertical-align: middle;
+}
+.order{
+  margin: 40rpx 0;
+  border-radius: 6rpx;
+  color: #fff;
+}
+button{
+  width: 100%;
+}

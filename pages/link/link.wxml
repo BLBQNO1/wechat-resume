@@ -1,0 +1,29 @@
+<!--pages/link/link.wxml-->
+<view class="bg-img bg-mask padding-tb-xl bg">
+	<view class="head-ti text-center">
+		<view>积一时之跬步</view>
+		<view>臻千里之遥程</view>
+	</view>
+</view>
+<view class="padding">
+	<view class="padding-xl radius shadow-warp bg-white">
+		<text class="cuIcon-calendar lg text-blue"></text>
+		<text class="name-ti">联系方式</text>
+		<view class="line"></view>
+    <view class="flex justify-between box">
+      <view><text class="cuIcon-dianhua xxl text-gray"></text>13620547041</view>
+      <view bindtap="call">拨号</view>
+    </view>
+    <view class="flex justify-between box">
+      <view><text class="cuIcon-mail xxl text-gray"></text>1904847624@qq.com</view>
+      <view bindtap="copyMail">复制</view>
+    </view>
+    <view class="flex justify-between box">
+      <view><text class="cuIcon-weixin xxl text-gray"></text>BLBQNO1</view>
+      <view bindtap="copyWeChat">复制</view>
+    </view>
+    <button class="cuIcon-share text-center bg-blue order" open-type="share">分享简历</button>
+    <button class="cuIcon-service text-center bg-orange" open-type='contact'>在线联系</button>
+    <button class="cuIcon-write text-center bg-red order" open-type="feedback">意见反馈</button>
+	</view>
+</view>

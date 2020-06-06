@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="bg-img bg-mask padding-tb-xl bg"></view>
+<view class="head text-center">
+  <view class="padding-xl radius shadow-warp bg-white">
+    <view class="flex justify-center t-img">
+      <image class="cu-avatar xxl round" src="/image/head.jpg"></image>
+    </view>
+    <text class="name">陈海旺</text>
+    <view class="word">求职意向：<text>前端开发</text></view>
+    <view class="info">
+      <text>男</text> / 
+      <text>22岁</text> / 
+      <text>本科</text>
+    </view>
+    <view class="flex justify-center">
+      <view bindtap="addWechat"><text class="cuIcon-weixin text-green xxl"></text></view>
+      <view bindtap="call"><text class="cuIcon-phone text-orange xxl"></text></view>
+      <!-- <view bindtap="addPhone"><text class="cuIcon-addressbook text-purple xxl"></text></view>
+      <view ><text class="cuIcon-mail text-blue xxl"></text></view> -->
+    </view>
+  </view>
+</view>
+<view class="padding">
+  <view class="padding-xl radius shadow-warp bg-white">
+    <text class="cuIcon-medalfill lg text-blue"></text>
+    <text class="name-ti">教育背景</text>
+    <view class="line"></view>
+    <view class="con">
+      <text class="cuIcon-time lg text-gray icon"></text>
+      <text>2016.9 ~ 2020.7</text>
+    </view>
+    <view class="con">
+      <text class="cuIcon-location lg text-gray icon"></text>
+      <text>广东培正学院</text>
+    </view>
+    <view class="con">
+      <text class="cuIcon-choiceness lg text-gray icon"></text>
+      <text>计算机科学与技术</text>
+    </view>
+  </view>
+</view>
+<view class="padding" style="padding-top: 10rpx;">
+  <view class="padding-xl radius shadow-warp bg-white">
+    <text class="cuIcon-crown lg text-blue"></text>
+    <text class="name-ti">校内荣誉</text>
+    <view class="line"></view>
+    <view class="con">
+      <text class="cuIcon-favor lg text-gray icon"></text>
+      <text>国家励志奖学金</text>
+    </view>
+    <view class="con">
+      <text class="cuIcon-favor lg text-gray icon"></text>
+      <text>优秀学生干部</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+/* pages/skill/skill.wxss */
+.box{
+  margin-top: 20rpx;
+  padding: 20rpx;
+  box-shadow: 0 0 1rpx  #0081ff;
+}
+.skill-ti{
+  font-weight: bold;
+  font-size: 32rpx;
+  padding-bottom: 10rpx;
+  color: #000;
+}
+.margin10{
+  margin-top: 20rpx;
+}

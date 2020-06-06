@@ -1,0 +1,29 @@
+<!--pages/work/work.wxml-->
+<view class="bg-img bg-mask padding-tb-xl bg">
+	<view class="head-ti text-center">
+		<view>同舟共济扬帆起</view>
+		<view>乘风破浪万里航</view>
+	</view>
+</view>
+<view class="padding">
+	<view class="padding-xl radius shadow-warp bg-white">
+		<text class="cuIcon-footprint lg text-blue"></text>
+		<text class="name-ti">工作经历</text>
+		<view class="line"></view>
+		<view class="cu-timeline">
+      <view class="cu-time">Now</view>
+			<view class="cu-item text-blue">
+				<view class="bg-gray content">
+					<view class="flex justify-between">
+            <view class="cu-tag line-blue">2019.10 ~ 2020.1</view>
+            <view class="big">前端实习</view>
+          </view>
+          <view><text class="company">广州碧雪教育科技有限公司</text></view>
+          <view>1. 根据原网站的版块栏目，重新设计新网站的UI图；</view>
+          <view>2. 负责公司网站页面的编写，解决web端和移动端适配问题；</view>
+          <view>3. 使用jQuery实现某些功能的逻辑处理和某些页面的动态效果；</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
